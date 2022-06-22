@@ -16,8 +16,10 @@ Disclaimer:
 ---
 USAGE
 
-echo -e "
 -b --bridge      Deploy obfs4 Tor bridge
+
 -r --relay       Deploy middle/guard Relay
+
 -s --start       Run Tor systemD service
+
 -l --logs        Display Tor logs"
