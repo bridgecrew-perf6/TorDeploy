@@ -12,3 +12,12 @@ Disclaimer:
 - Make sure your server is <a href="https://github.com/gomidee/Hardening">hardened</a>
 - For further details and troubleshooting follow the <a href="https://community.torproject.org/onion-services/setup/">official guide</a>
 -  Use at your own risk
+
+---
+USAGE
+
+echo -e "
+-b --bridge      Deploy obfs4 Tor bridge
+-r --relay       Deploy middle/guard Relay
+-s --start       Run Tor systemD service
+-l --logs        Display Tor logs"
